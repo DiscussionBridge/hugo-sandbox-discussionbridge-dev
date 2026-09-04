@@ -1,0 +1,15 @@
+{
+  "name": "discussionbridge-hugo-sandbox",
+  "version": "0.0.1",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "sync:adapter-assets": "node scripts/sync-adapter-assets.mjs",
+    "build:manifest": "npm run sync:adapter-assets && hugo --cleanDestinationDir --destination public",
+    "prepare:data": "discussionbridge-hugo prepare --manifest public/discussionbridge-manifest.json --output data/discussionbridge.json --state .discussionbridge/hugo-publication-state.json",
+    "build": "npm run build:manifest && npm run prepare:data && hugo --cleanDestinationDir --destination public"
+  },
+  "dependencies": {
+    "hugo-discussion-bridge": "file:../../../../../../Products/DiscussionBridge/.build-artifacts/hugo-discussion-bridge-0.1.0-alpha.17.tgz"
+  }
+}

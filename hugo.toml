@@ -1,0 +1,20 @@
+baseURL = 'https://hugo.sandbox.discussionbridge.dev/'
+locale = 'en-us'
+title = 'DiscussionBridge Hugo Sandbox'
+theme = 'ananke'
+[params]
+  description = 'Fresh, resettable Hugo sandbox for DiscussionBridge adapter development.'
+  robots = 'noindex, nofollow, noarchive'
+  discussionbridge_forum_origin = 'https://sandbox-forum.discussionbridge.dev'
+
+[mediaTypes.'application/vnd.discussionbridge+json']
+  suffixes = ['json']
+
+[outputFormats.discussionbridge]
+  mediaType = 'application/vnd.discussionbridge+json'
+  baseName = 'discussionbridge-manifest'
+  isPlainText = true
+  notAlternative = true
+
+[outputs]
+  home = ['html', 'rss', 'discussionbridge']
