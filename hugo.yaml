@@ -1,0 +1,4 @@
+baseURL: https://hugo.sandbox.discussionbridge.dev/
+languageCode: en-us
+title: Hugo Sandbox
+theme: ananke

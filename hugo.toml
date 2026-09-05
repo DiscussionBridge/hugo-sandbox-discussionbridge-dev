@@ -1,7 +1,0 @@
-baseURL = 'https://hugo.sandbox.discussionbridge.dev/'
-locale = 'en-us'
-title = 'DiscussionBridge Hugo Sandbox'
-theme = 'ananke'
-[params]
-  description = 'Fresh, resettable stock Hugo sandbox for human installation testing.'
-  robots = 'noindex, nofollow, noarchive'
