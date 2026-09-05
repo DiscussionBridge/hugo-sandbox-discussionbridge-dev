@@ -1,9 +1,9 @@
 +++
 title = 'DiscussionBridge Hugo Sandbox'
-description = 'Fresh, resettable Hugo sandbox for DiscussionBridge adapter development.'
+description = 'Fresh, resettable stock Hugo sandbox for human installation testing.'
 +++
 
-This is an isolated Hugo installation for adapter development, destructive tests, resets, and promotion into preproduction.
+This is a clean Hugo and Ananke installation for human-led DiscussionBridge adapter installation, configuration, connection creation, workflow testing, and resets. No DiscussionBridge adapter is installed or configured.
 
 - [All platform sandboxes](https://sandbox.discussionbridge.dev/)
 - [Receiving sandbox forum](https://sandbox-forum.discussionbridge.dev/)
