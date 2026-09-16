@@ -1,0 +1,30 @@
+.discussionbridge-presentation {
+  margin: 2rem auto;
+  max-width: 72rem;
+}
+
+.discussionbridge-header {
+  align-items: center;
+  display: flex;
+  gap: 1rem;
+  justify-content: space-between;
+}
+
+.discussionbridge-presentation iframe,
+.discussionbridge-presentation #discourse-comments {
+  border: 0;
+  max-width: 100%;
+  width: 100%;
+}
+
+.discussionbridge-credit {
+  margin: 1.5rem auto;
+  text-align: center;
+}
+
+.discussionbridge-credit a {
+  color: inherit;
+  font-weight: 700;
+  text-decoration-thickness: 0.12em;
+  text-underline-offset: 0.18em;
+}

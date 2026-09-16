@@ -1,4 +1,36 @@
 baseURL: https://hugo.sandbox.discussionbridge.dev/
-languageCode: en-us
-title: Hugo Sandbox
+locale: en-US
+title: DiscussionBridge Hugo Sandbox
 theme: ananke
+enableRobotsTXT: true
+
+params:
+  description: A stock Hugo site connected to the DiscussionBridge sandbox.
+  discussionbridge_forum_origin: https://sandbox-forum.discussionbridge.dev
+  ananke:
+    custom_css:
+      - discussionbridge.css
+
+mediaTypes:
+  application/vnd.discussionbridge+json:
+    suffixes:
+      - json
+
+outputFormats:
+  discussionbridge:
+    mediaType: application/vnd.discussionbridge+json
+    baseName: discussionbridge-manifest
+    isPlainText: true
+    notAlternative: true
+
+outputs:
+  home:
+    - html
+    - rss
+    - discussionbridge
+
+menus:
+  main:
+    - name: DiscussionBridge
+      pageRef: /discussionbridge
+      weight: 10
