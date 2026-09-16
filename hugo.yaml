@@ -29,6 +29,12 @@ outputs:
     - rss
     - discussionbridge
 
+segments:
+  discussionbridge-manifest:
+    includes:
+      - kind: home
+        output: discussionbridge
+
 menus:
   main:
     - name: DiscussionBridge
