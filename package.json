@@ -11,6 +11,6 @@
     "build:preview": "hugo --cleanDestinationDir --destination public"
   },
   "dependencies": {
-    "hugo-discussion-bridge": "https://github.com/DiscussionBridge/hugo-discussion-bridge/releases/download/v0.2.0-alpha.20/hugo-discussion-bridge-0.2.0-alpha.20.tgz"
+    "hugo-discussion-bridge": "https://github.com/DiscussionBridge/hugo-discussion-bridge/releases/download/v0.2.0-alpha.21/hugo-discussion-bridge-0.2.0-alpha.21.tgz"
   }
 }
